@@ -1,0 +1,107 @@
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0) inset, 0 0 1px rgb(255, 255, 255);
+  outline: 0 none;
+}
+
+.red_header {
+    background-color: #d0011b;
+    color: white;
+    /* padding-left: 3%; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jaga_jarak{
+    padding-left: 5%;
+}
+
+.jaga_jarak_baris_dua{
+    padding-left: 9%;
+}
+
+
+.tulisan_atas {
+    display:flex;
+}
+
+.tulisan_atas li:first-child{
+    border-left: none;
+}
+
+.tulisan_atas .link:hover{
+    color: lightcoral;
+    cursor: pointer;
+}
+
+.tulisan_atas_item{
+    margin-left: 20px;
+    font-size: 12px;
+    list-style-type: none;
+    border-left: 2px solid lightgray;
+    text-align: center;
+    padding-left: 12px;
+}
+
+.tulisan_atas_kanan {
+    display: flex;
+    font-size: 12px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.tulisan_atas_kanan li{
+    margin-left: 20px;
+}
+
+.tulisan_atas_kanan > .link:hover{
+    color: lightgoldenrodyellow;
+}
+
+.logo{
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.list_kategory {
+    display: flex;
+    align : center;
+    margin-left: auto;
+}
+
+.list_kategory li:first-child {
+    padding: 0;
+}
+
+.list_kategory li {
+    font-size: 12px;
+    margin-left: 20px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.list_sosmed {
+    /* display: flex; */
+    font-size: 1.5em;
+    margin-left: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.www{
+    display: none;
+}    
